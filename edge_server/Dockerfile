@@ -1,4 +1,4 @@
-# Small base layer
+# Start with a small base layer
 FROM alpine:3.18
 
 # Add labels
