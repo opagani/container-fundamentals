@@ -1,4 +1,6 @@
 services:
   edge_server:
-    image: registry.containerleaks.com/ops_team/edge_server@sha256:8dad24af18e5f8eceac7af2ee7c37bc5136a7026c0f1d9b20eadea469589bdda
-    
+    image: registry.containerleaks.com/opagani-edge-server/edge_server@sha256:f876ff3f7ec656f6365e3d67a77265ef47de8043cb8913323d06cc1d4d489fd6
+    ports:
+      - "8000:80"
+    restart: unless-stopped
